@@ -17,12 +17,16 @@ def count_jobs(data:list, job:str) -> int:
     
 data = [
   {
-    'name': 'John', 
-    'job': 'Developer'
+    'name': 'John',
+    'job': 'Barber'
   }, 
   {
-    'name': 'Mary', 
+    'name': 'Mary',
     'job': 'Developer'
+  },
+  {
+    'name': 'Ann', 
+    'job': 'Teacher'
   }
   ]
-print(count_jobs(data, 'Developer'))
+print(count_jobs(data, 'Student'))
